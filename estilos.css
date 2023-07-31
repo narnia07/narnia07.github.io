@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap');
+
+header h1{
+    background-color: #F0D9AA;
+    height: 57px;
+}
+body{
+    background-color: #ceaaf0;
+
+}
+ h1{
+    color: blueviolet;
+    font-family: 'Josefin Sans';
+    margin-top: 50px;
+}
+
+h2{
+    color: blue;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: solid; width: 200px;
+    text-align: center;
+    margin-left: 5%;
+}
+
+h3{
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5%;
+    
+}
+button{
+    color: blueviolet;
+    background-color: aqua;
+ 
+}
+
+details {
+    font: 16px "Open Sans", Calibri, sans-serif;
+    width: 620px;
+  }
+  
+  details > summary {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    padding: 2px 6px;
+    width: 240px;
+    background-color: #ddd;
+    border: none;
+    box-shadow: 3px 3px 4px black;
+    cursor: pointer;
+
+  }
+  
+  
+  details > p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    border-radius: 0 0 10px 10px;
+    background-color: #ddd;
+    padding: 2px 6px;
+    margin: 0;
+    box-shadow: 3px 3px 4px black;
+  }
+  details > p ul {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    border-radius: 0 0 10px 10px;
+    background-color: #ddd;
+    
+    padding: 2px 6px;
+    margin: 0;
+    box-shadow: 3px 3px 4px black;
+  }
+  
+  details[open] > summary {
+
+    background-color: #ddd;
+    width: 240px;
+    padding: 2px 6px;
+    margin: 0;
+    box-shadow: 3px 3px 4px black;
+  }
+
+
+  ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  ul.breadcrumb li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
+    font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
